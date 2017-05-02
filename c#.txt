@@ -1,0 +1,14 @@
+C# in umumi xususiyyetlerine baxdiqda en basda Visual Basicin istifade rahatligi, C++-in obyektyonumlu hissesi ve Java dilinin Platformadan asili olmamasini birlesdiren yeni nesil bir programlama dilidir. Yeni 100% obyektyonumlu C++ ve ya C den cox ferqli ve Yazdigimiz kodu framework-un islediyi her emeliyyat sisteminde islemesidir. 
+Obyektyonumlu programlasdirma dillerinin en boyuk xususiyyetlerinden biri yazdigimiz programin kodunu daha sonraki oxsar aplikasiyalarda da kicik deyisiklikler ederek istifade oluna bilmesidir. KOdlarin tehlukesizliyi baximindan Kapsullama ile xarici muhitlerden qorunmasi ucun metodlardan istifade olunur.
+Java dilinden 3.5 defe daha suretlidir. Visual Basic ve Visual C++ dan da o qeder suretlidir. 
+C,C++ da stringler xarakterlerin duzulusu ile gosterilirdi. C# da string deyilen deyisen komeyile bu is asanlasdi. Meselen C dilinde
+		char ad[30];
+		strcpy(ad,"Cavidan");
+seklindeki bir ifadeni C# da cox daha asan formada 
+		string ad="Cavidan";
+kimi yazmaq olar. Stringleri qarsilasdirmaq ve stringler uzerinde diger emeliyyatlari bir o qeder asanlasdirir.
+C# cop toplama ve qaynaq idaresi ile programlarin RAM ya da yaddasini cox daha elverisli istifade edir.
+API lerden istifade daha asandir.
+namespace ler ile siniflerin bir-birine qarismasinin qarsini almaq olar. Yeni eyni ada malik bir nece classimiz olsa bele onlari namespace ler ile ayirma olar.  
+Yazilmis kod her ortamda Framework ile yeniden kopayl olunaraq ortama gore isleyer. Just In time ile kodlar istifade edileceyi zaman kompayl ve cache olunur. 
+Platformadan asili deyil.
